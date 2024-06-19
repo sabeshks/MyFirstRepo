@@ -1,0 +1,21 @@
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:fixed;
+    right: 20px;
+}
+#two{width: 100px;
+    height: 100px;
+    background-color: green;
+    position:fixed;
+    bottom:50px;
+}
+#three{width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#four{width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
