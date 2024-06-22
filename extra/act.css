@@ -1,0 +1,42 @@
+div{
+    margin-top: 3px;
+    display: inline;
+    
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left:6px ;
+    border: blue solid 2px;
+    
+}
+#two{width: 100px;
+    height: 100px;
+   
+    background-color: green;
+    position: relative;
+    left: 10px;
+    border: blue solid 2px;
+    
+
+    
+}
+#three{width: 100px;
+    height: 100px;
+    background-color: yellow;
+    
+    position: relative;
+    bottom: 30px;
+   
+   
+    border: blue solid 2px;
+}
+#four{width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 10px;
+    border: blue solid 2px;
+}

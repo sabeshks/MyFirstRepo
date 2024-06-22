@@ -1,0 +1,30 @@
+#cont{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:spa;
+    align-content:center;
+    align-items:end;
+    
+    
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#one{
+    background-color: red;
+}
+#two{
+    background-color: yellow;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: green;
+}

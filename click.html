@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="string.js"></script>
+</head>
+<body>
+    <h1 id="head">Animals</h1>                                                                                                           
+    <p class="dom">zero</p>
+    <p class="dom">one</p>
+    <p class="dom">two</p>
+    <p class="dom">four</p>
+    <button onclick="myfun()">show animal</button>
+    
+
+
+</body>
+<script>
+   myfun()                                                          
+   {
+    var animal=["dog","cat","cow","sheep"]
+   for(var x in animals)
+   {
+    document.getElementsByClassName("dom")[x].innerHTML=animal[x]
+
+   }
+   }
+    
+
+</script>
+</html>

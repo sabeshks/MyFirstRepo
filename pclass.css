@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 20px;
+    bottom: 20px;
+    position: relative;
+    left: 50px;
+    transition:all 1s ease-in 0.5s;
+    
+
+}
+div:hover{
+    background-color: green;
+    color: white;
+    font-family: cursive;
+    transform:scalex(2);
+}

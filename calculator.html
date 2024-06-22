@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        /* Add some basic styling for butons */
+        button {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <input type="text" id="result" readonly>
+    <br>
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">*</button>
+    <button onclick="calculate('/')">/</button>
+    <br>
+    <script>
+        function calculate(operator) {
+            const num1 = parseFloat(prompt('Enter the first number:'));
+            const num2 = parseFloat(prompt('Enter the second number:'));
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert('Please enter valid numbers.');
+                return;
+            }
+
+            let result;
+            switch (operator) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                case '/':
+                    result = num1 / num2;
+                    break;
+                default:
+                    alert('Invalid operator.');
+                    return;
+            }
+
+            document.getElementById('result').value = result;
+        }
+    </script>
+</body>
+</html>
