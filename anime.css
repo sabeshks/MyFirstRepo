@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: myanime;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    position: relative;
+    animation-timing-function: ease-out;
+}
+@keyframes myanime {
+    0%{background-color: red;}
+    25%{background-color: blue;left:100px}
+    50%{background-color: yellow;top: 100px;}
+    100%{background-color: palevioletred;left: 500px;}
+    }
